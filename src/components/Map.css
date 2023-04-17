@@ -1,0 +1,47 @@
+.Map {
+  background-image: url(./backgroundmap.svg);
+  background-size: cover;
+  height:55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Map__title {
+  padding: 10vh 6.8vw 5vh 6.8vw;
+}
+
+.Map__title h2{
+  color :white;
+  font-size: 36px;
+}
+
+.Map__title p{
+  color :white;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 18px;
+}
+
+.Map__Numbers {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.Map__Numbers h2 {
+  color:#D0142B;
+  font-size: 64px;
+}
+
+.Map__Numbers h3 {
+  color: white;
+  font-size: 18px;
+  margin-top: 5%;
+}
+
+.Map__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

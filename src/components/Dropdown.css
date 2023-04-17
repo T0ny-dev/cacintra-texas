@@ -1,0 +1,31 @@
+.szh-accordion__item-btn {
+  width: 60vw;
+  padding: 25px;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  border-radius: 15px;
+  border: 1px solid #00000043;
+  background-color: transparent;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.szh-accordion__item-btn::after {
+  content: url(arrow.png);
+  position: absolute;
+  left: 75vw;
+}
+
+.szh-accordion__item-panel {
+  width: 60vw;
+  padding: 0vh 5vw;
+}
+
+.szh-accordion {
+  padding: 5vh 6.8vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

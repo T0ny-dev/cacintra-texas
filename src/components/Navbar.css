@@ -1,0 +1,76 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  align-items: center;
+  padding: 0px 6.8vw;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  box-shadow: 1px 2px 21px -2px rgba(0,0,0,0.15);
+-webkit-box-shadow: 1px 2px 21px -2px rgba(0,0,0,0.15);
+-moz-box-shadow: 1px 2px 21px -2px rgba(0,0,0,0.15);
+}
+
+.Navbar__Links {
+  display: flex;
+  align-items: center;
+}
+
+.Navbar__Links a {
+  margin-left: 32px;
+  text-decoration: none;
+  color: #151F3D;
+  font-weight: 500;
+}
+
+.Navbar__Links a:hover {
+  color:#D0142B;
+}
+
+.Navbar__button {
+  display: flex;
+  align-items: center;
+  
+}
+
+.Navbar__button a {
+  margin-right: 32px;
+  text-decoration: none;
+  color: #151F3D;
+  font-weight: 500;
+}
+.Navbar__button a:hover {
+  color:#D0142B;
+}
+
+.Navbar__button button {
+  margin-right: 0px;
+}
+
+.button_primary{
+  background-color: #D0142B;
+  color: white;
+  border: none;
+  height: 35px;
+  width: 125px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.button_primary:hover {
+  background-color: #b3182a;
+}
+
+.Navbar__icon {
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Navbar__icon:hover {
+  background-color: rgb(226, 226, 226);
+  border-radius: 50px;
+}

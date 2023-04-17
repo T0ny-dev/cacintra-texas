@@ -1,0 +1,53 @@
+.tabs {
+  display: flex;
+  justify-content: center;
+  padding: 2vh 0vw;
+  gap: 3vw;
+  border: solid 1px #b3b3b3;
+}
+
+.tabs__button {
+  border: none;
+  color: #151F3D;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: white;
+}
+.tabs__button:hover {
+  color: #D0142B;
+}
+
+.tabs__button:disabled {
+  color: #D0142B;
+}
+
+.title {
+  margin-top: 5vh;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.tabs__container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0vh 6.8vw;
+  margin-top: 2vh;
+  margin-bottom: 15vh;
+}
+
+.tabs__card {
+  display: flex;
+  flex-direction: column;
+  width: 352px;
+  gap: 2vh;
+}
+
+.tabs__card img {
+  object-fit: cover;
+}
+
+.tabs__card p {
+  font-size: 14px;
+}

@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Hero from '../components/Hero.jsx';
+import ImageSection from '../components/ImageSection.astro';
+import ImageLeft from '../components/ImageLeft.astro';
+import Footer from '../components/footer.astro';
+import Form from '../components/Form.astro';
+import Button from '../components/Button.astro';
+---
+
+<Layout title="CANACINTRA - Servicios">
+  <Navbar/>
+  <Hero image={"logowhite.svg"} title={"SER SOCIO CANACINTRA"} background={"services-riobravo.jpg"} position ={"top"}/>
+  <ImageSection
+  title="Sectores Clave" 
+	content="El Sistema de Información Empresarial Mexicano (SIEM), es un instrumento del estado mexicano cuyo propósito es captar,integrar, procesar y suministrar información sobre las características y ubicación de los establecimientos de comercio, servicios, turismo e industria en el país, para un mejor desempeño y promoción de las actividades empresariales."
+	image="Miembro.jpg"
+  />
+  <ImageLeft
+  title="Sectores Clave" 
+	content="La Cámara Nacional de la Industria de Transformación CANACINTRA, es el organismo que representa al sector industrial de México. Tiene como objetivo fomentar la competitividad y la productividad de las empresas, apoyándolas para que se mantengan en constante actualización y se conviertan en agentes innovadores socialmente responsables. Por su cobertura, representatividad e infraestructura, CANACINTRA es la cámara más importante de toda latinoamérica."
+	image="siem.webp"
+  />
+  <Button title="Formato PDF editable" link="https://canacintra.org.mx/camara/wp-content/uploads/2019/04/Formato_registro_editable_final.pdf"/>
+  <Form/>
+  <Footer/>
+</Layout>

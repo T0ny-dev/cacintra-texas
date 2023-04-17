@@ -1,0 +1,44 @@
+---
+export interface Props {
+	title: string;
+  content:string;
+  image:string;
+}
+
+const { title } = Astro.props;
+const {content} = Astro.props;
+const {image} = Astro.props;
+---
+
+
+<div class="image">
+  <div class="image__content">
+    <h3>{title}</h3>
+    <p>{content}</p>
+  </div>
+  <div class="image__section">
+    <img src={image} alt="imagen">
+  </div>
+</div>
+
+
+<style>
+  .image {
+    display: flex;
+    padding: 10vh 6.8vw;
+    justify-content: space-evenly;
+  }
+
+  .image__content {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+  }
+
+  .image__content h3{
+    font-size: 36px;
+    margin-bottom: 5%;
+  }
+
+</style>

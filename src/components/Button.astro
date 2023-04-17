@@ -1,0 +1,51 @@
+---
+export interface Props {
+	title: string;
+  link:string;
+}
+
+const { title } = Astro.props;
+const {link} = Astro.props;
+---
+
+<div class="section__button">
+  <h2>{title}</h2>
+  <a href={link} target="_blank">
+    <button>
+      Formato para imprimir
+    </button>
+  </a>
+</div>
+
+
+<style>
+
+  .section__button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    background-color: #D0142B;
+    padding: 20px 30px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #b3182a;
+  }
+</style>

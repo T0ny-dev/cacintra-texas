@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Hero from '../components/Hero.jsx';
+import ImageSection from '../components/ImageSection.astro';
+import Footer from '../components/footer.astro';
+---
+
+<Layout title="CANACINTRA - Servicios">
+  <Navbar/>
+  <Hero image={"logowhite.svg"} title={"SERVICIOS"} background={"sobrenosotros.jpg"}/>
+  <ImageSection
+  title="Sectores Clave" 
+	content="La Cámara Nacional de la Industria de Transformación CANACINTRA, es el organismo que representa al sector industrial de México. Tiene como objetivo fomentar la competitividad y la productividad de las empresas, apoyándolas para que se mantengan en constante actualización y se conviertan en agentes innovadores socialmente responsables. Por su cobertura, representatividad e infraestructura, CANACINTRA es la cámara más importante de toda latinoamérica."
+	image="petro.png"
+  />
+  <Footer/>
+</Layout>

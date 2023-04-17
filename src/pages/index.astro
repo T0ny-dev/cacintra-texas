@@ -1,0 +1,92 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Hero from '../components/Hero.jsx';
+import Tabs from '../components/Tabs';
+import Map from '../components/Map';
+import Section from '../components/Section.astro';
+import Access from '../components/Access.astro';
+import ImageSection from '../components/ImageSection.astro';
+import ImageLeft from '../components/ImageLeft.astro';
+import Brand from '../components/Brand.astro';
+import Testimonals from '../components/Testimonals.astro';
+import Contact from '../components/Contact.astro';
+import Dropdown from '../components/Dropdown';
+import Footer from '../components/footer.astro';
+---
+
+<Layout title="CANACINTRA - RIO BRAVO.">
+		<Navbar/>
+		<Hero image={"logowhite.svg"} title={"BUSCAMOS TRANFORMAR NUESTRO FUTURO"} background={"background.jpg"}/>
+    <Tabs client:load/>
+		<Map/>
+		<Section title="Quiénes somos" content="La Cámara Nacional de la Industria de Transformación CANACINTRA, es el organismo que representa al sector industrial de México. Tiene como objetivo fomentar la competitividad y la productividad de las empresas, apoyándolas para que se mantengan en constante actualización y se conviertan en agentes innovadores socialmente responsables. Por su cobertura, representatividad e infraestructura, CANACINTRA es la cámara más importante de toda latinoamérica."/>
+		<Access/>
+		<Section title="Sectores Clave" content="La Cámara Nacional de la Industria de Transformación CANACINTRA, es el organismo que representa al sector industrial de México. Tiene como objetivo fomentar la competitividad y la productividad de las empresas, apoyándolas para que se mantengan en constante actualización y se conviertan en agentes innovadores socialmente responsables. Por su cobertura, representatividad e infraestructura, CANACINTRA es la cámara más importante de toda latinoamérica."/>
+		<ImageSection 
+		title="Sectores Clave" 
+		content="La Cámara Nacional de la Industria de Transformación CANACINTRA, es el organismo que representa al sector industrial de México. Tiene como objetivo fomentar la competitividad y la productividad de las empresas, apoyándolas para que se mantengan en constante actualización y se conviertan en agentes innovadores socialmente responsables. Por su cobertura, representatividad e infraestructura, CANACINTRA es la cámara más importante de toda latinoamérica."
+		image="petro.png"
+		/>
+		<ImageLeft
+		title="Sectores Clave"
+		content="La Cámara Nacional de la Industria de Transformación CANACINTRA, es el organismo que representa al sector industrial de México. Tiene como objetivo fomentar la competitividad y la productividad de las empresas, apoyándolas para que se mantengan en constante actualización y se conviertan en agentes innovadores socialmente responsables. Por su cobertura, representatividad e infraestructura, CANACINTRA es la cámara más importante de toda latinoamérica."
+		image="auto.png"
+		/>
+		<ImageSection 
+		title="Sectores Clave" 
+		content="La Cámara Nacional de la Industria de Transformación CANACINTRA, es el organismo que representa al sector industrial de México. Tiene como objetivo fomentar la competitividad y la productividad de las empresas, apoyándolas para que se mantengan en constante actualización y se conviertan en agentes innovadores socialmente responsables. Por su cobertura, representatividad e infraestructura, CANACINTRA es la cámara más importante de toda latinoamérica."
+		image="maquinaria.png"
+		/>
+		<ImageLeft
+		title="Sectores Clave"
+		content="La Cámara Nacional de la Industria de Transformación CANACINTRA, es el organismo que representa al sector industrial de México. Tiene como objetivo fomentar la competitividad y la productividad de las empresas, apoyándolas para que se mantengan en constante actualización y se conviertan en agentes innovadores socialmente responsables. Por su cobertura, representatividad e infraestructura, CANACINTRA es la cámara más importante de toda latinoamérica."
+		image="electronicos.png"
+		/>
+		<Brand/>
+		<Testimonals/>
+		<Contact/>
+		<Dropdown client:load/>
+		<Footer/>
+</Layout>
+
+<style>
+
+	h1 {
+		font-size: 3rem;
+		font-weight: 800;
+		margin: 0;
+	}
+	.text-gradient {
+		background-image: var(--accent-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+	}
+	.instructions {
+		line-height: 1.6;
+		margin: 1rem 0;
+		border: 1px solid rgba(var(--accent), 25%);
+		background-color: white;
+		padding: 1rem;
+		border-radius: 0.4rem;
+	}
+	.instructions code {
+		font-size: 0.875em;
+		font-weight: bold;
+		background: rgba(var(--accent), 12%);
+		color: rgb(var(--accent));
+		border-radius: 4px;
+		padding: 0.3em 0.45em;
+	}
+	.instructions strong {
+		color: rgb(var(--accent));
+	}
+	.link-card-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+		gap: 1rem;
+		padding: 0;
+	}
+</style>
