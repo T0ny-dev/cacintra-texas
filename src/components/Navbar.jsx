@@ -12,7 +12,7 @@ function Navbar() {
         </a>
         <a href="/sobrenosotros">Sobre Nosotros</a>
         <a href="/servicios">Servicios</a>
-        <a href="https://canacintrariobravo.com/blog/">Blog</a>
+        <a href="https://blog.canacintrariobravo.com/">Blog</a>
         <a href="/contacto">Contacto</a>
       </div>
       <div className="Navbar__button">

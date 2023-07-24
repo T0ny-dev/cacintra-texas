@@ -19,7 +19,7 @@ function MobileNavbar () {
           <div className='menu_mobile_links'>
             <a href="/sobrenosotros">Sobre Nosotros</a>
             <a href="/servicios">Servicios</a>
-            <a href="https://canacintrariobravo.com/blog/">Blog</a>
+            <a href="https://blog.canacintrariobravo.com/">Blog</a>
             <a href="/contacto">Contacto</a>
             <a href="/sermiembro">Ser Socio</a>
             <a href="https://canacintrariobravo.com/blog/agenda">Agenda</a>
