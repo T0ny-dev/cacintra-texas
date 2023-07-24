@@ -4,7 +4,7 @@ function Map () {
   return (
     <div className="Map">
       <div className="Map__title">
-        <h2>Afilicados Total de CANACINTRA</h2>
+        <h2>Afiliados Total de CANACINTRA</h2>
         <p>45,107 afiliados</p>
       </div>
       <div className="Map__Numbers">

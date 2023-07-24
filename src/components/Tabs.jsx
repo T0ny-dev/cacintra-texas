@@ -9,28 +9,30 @@ function Tabs() {
 		{
 			id: 1,
 			tabTitle: 'Beneficios',
-			title: 'Socios Benficios Activos',
+			title: 'Para socios',
 			content: './juntas.png',
 			heading: 'Juntas y Mesas de trabajo',
-			paragraph:'Lorem Ipsum is simply dummy text of the printing and typesetting industryLorem Ipsum is simply dummy text of the printing and typesetting industry',
+			paragraph:'importante al permitir que las empresas locales colaboren y compartan información para resolver problemas comunes y mejorar sus prácticas comerciales.',
 			content2:'./e-learning.png',
-			heading2: 'Educacion',
-			paragraph2:'Lorem Ipsum is simply dummy text of the printing and typesetting industryLorem Ipsum is simply dummy text of the printing and typesetting industry',
+			heading2: 'Educación',
+			paragraph2:'ofrece beneficios educativos a través de capacitaciones y programas de formación para mejorar las habilidades y conocimientos ',
 			content3:'network.png',
 			heading3: 'Networking',
-			paragraph3:'Lorem Ipsum is simply dummy text of the printing and typesetting industryLorem Ipsum is simply dummy text of the printing and typesetting industry',
+			paragraph3:'ofrece oportunidades de networking para las empresas locales, lo que puede ayudar a establecer conexiones comerciales valiosas y fomentar relaciones empresariales duraderas.',
 		},
 		{
 			id: 2,
 			tabTitle: 'Socios CANACINTRA',
-			title: 'Title 2',
-			content: 'Contenido de tab 2.'
-		},
-		{
-			id: 3,
-			tabTitle: 'Eventos',
-			title: 'Title 3',
-			content: 'Contenido de tab 3.'
+			title: 'Eventos',
+			content: 'event.png',
+			heading: 'Eventos Nacionales',
+			paragraph:'Eventos nacionales que brindan a las empresas locales la oportunidad de conocer las últimas tendencias y desarrollos en su sector.',
+			content2:'agendanacionalcanacintra.png',
+			heading2: 'Agenda',
+			paragraph2:'Sigue los eventos a través de la agenda nacional y la red apoyo de CANACINTRA RÍO BRAVO ',
+			content3:'eventoslocales.png',
+			heading3: 'Eventos locales',
+			paragraph3:'organiza eventos locales que brindan a las empresas la oportunidad de conectarse con la comunidad empresarial local.',
 		}
 	];
 

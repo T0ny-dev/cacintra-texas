@@ -9,42 +9,42 @@ import Access from '../components/Access.astro';
 import ImageSection from '../components/ImageSection.astro';
 import ImageLeft from '../components/ImageLeft.astro';
 import Brand from '../components/Brand.astro';
-import Testimonals from '../components/Testimonals.astro';
 import Contact from '../components/Contact.astro';
 import Dropdown from '../components/Dropdown';
 import Footer from '../components/footer.astro';
+import MobileNavbar from "../components/MobileNavbar.jsx"
 ---
 
 <Layout title="CANACINTRA - RIO BRAVO.">
-		<Navbar/>
-		<Hero image={"logowhite.svg"} title={"BUSCAMOS TRANFORMAR NUESTRO FUTURO"} background={"background.jpg"}/>
+		<Navbar client:load/>
+		<MobileNavbar client:load/>
+		<Hero image={"./logowhite.svg"} title={"BUSCAMOS TRANSFORMAR NUESTRO FUTURO"} background={"./background.jpg"}/>
     <Tabs client:load/>
 		<Map/>
-		<Section title="Quiénes somos" content="La Cámara Nacional de la Industria de Transformación CANACINTRA, es el organismo que representa al sector industrial de México. Tiene como objetivo fomentar la competitividad y la productividad de las empresas, apoyándolas para que se mantengan en constante actualización y se conviertan en agentes innovadores socialmente responsables. Por su cobertura, representatividad e infraestructura, CANACINTRA es la cámara más importante de toda latinoamérica."/>
+		<Section title="Quiénes somos" content="La Cámara Nacional de la Industria de Transformación CANACINTRA es el organismo que representa al Sector Industrial de México. Tiene como objetivo fomentar la competitividad y la productividad de las empresas, apoyándolas para que se mantengan en constante actualización y se conviertan en agentes innovadores socialmente responsables. Por su cobertura, representatividad e infraestructura, CANACINTRA es la cámara más importante de toda Latinoamérica  "/>
 		<Access/>
-		<Section title="Sectores Clave" content="La Cámara Nacional de la Industria de Transformación CANACINTRA, es el organismo que representa al sector industrial de México. Tiene como objetivo fomentar la competitividad y la productividad de las empresas, apoyándolas para que se mantengan en constante actualización y se conviertan en agentes innovadores socialmente responsables. Por su cobertura, representatividad e infraestructura, CANACINTRA es la cámara más importante de toda latinoamérica."/>
+		<Section title="Sectores Clave" content="La Cámara Nacional de la Industria de la Transformación (CANACINTRA) en México representa a diversos sectores de la industria y tiene como objetivo impulsar el desarrollo y crecimiento económico del país. Algunos de los sectores clave que esta cámara representa incluyen:"/>
 		<ImageSection 
-		title="Sectores Clave" 
-		content="La Cámara Nacional de la Industria de Transformación CANACINTRA, es el organismo que representa al sector industrial de México. Tiene como objetivo fomentar la competitividad y la productividad de las empresas, apoyándolas para que se mantengan en constante actualización y se conviertan en agentes innovadores socialmente responsables. Por su cobertura, representatividad e infraestructura, CANACINTRA es la cámara más importante de toda latinoamérica."
-		image="petro.png"
+		title="Productos Químicos y Petroquímicos" 
+		content="El sector de productos químicos y petroquímicos es estratégico para la economía de México debido a su participación en múltiples cadenas de valor y su aporte a diversas industrias. La cámara trabaja para promover el crecimiento y desarrollo sostenible de este sector, fomentando la innovación, la adopción de tecnologías avanzadas, el desarrollo de capacidades y la mejora de la competitividad de las empresas involucradas en esta área. "
+		image="./petro.png"
 		/>
 		<ImageLeft
-		title="Sectores Clave"
-		content="La Cámara Nacional de la Industria de Transformación CANACINTRA, es el organismo que representa al sector industrial de México. Tiene como objetivo fomentar la competitividad y la productividad de las empresas, apoyándolas para que se mantengan en constante actualización y se conviertan en agentes innovadores socialmente responsables. Por su cobertura, representatividad e infraestructura, CANACINTRA es la cámara más importante de toda latinoamérica."
-		image="auto.png"
+		title="Automotriz"
+		content="La CANACINTRA trabaja para promover el crecimiento y desarrollo del sector automotriz en México, facilitando la colaboración entre las empresas, impulsando la innovación y la adopción de tecnologías avanzadas, y promoviendo políticas y regulaciones que favorezcan la competitividad y el desarrollo sostenible de la industria."
+		image="./auto.png"
 		/>
 		<ImageSection 
-		title="Sectores Clave" 
-		content="La Cámara Nacional de la Industria de Transformación CANACINTRA, es el organismo que representa al sector industrial de México. Tiene como objetivo fomentar la competitividad y la productividad de las empresas, apoyándolas para que se mantengan en constante actualización y se conviertan en agentes innovadores socialmente responsables. Por su cobertura, representatividad e infraestructura, CANACINTRA es la cámara más importante de toda latinoamérica."
-		image="maquinaria.png"
+		title="Maquinaria y Equipo" 
+		content="Este sector es de gran relevancia para el desarrollo económico de México, ya que proporciona las herramientas y tecnologías necesarias para diversas industrias y sectores productivos. CANACINTRA trabaja para promover el crecimiento y la competitividad de la industria de maquinaria y equipo, apoyando la innovación, la capacitación y el desarrollo de capacidades tecnológicas en las empresas del sector."
+		image="./maquinaria.png"
 		/>
 		<ImageLeft
-		title="Sectores Clave"
-		content="La Cámara Nacional de la Industria de Transformación CANACINTRA, es el organismo que representa al sector industrial de México. Tiene como objetivo fomentar la competitividad y la productividad de las empresas, apoyándolas para que se mantengan en constante actualización y se conviertan en agentes innovadores socialmente responsables. Por su cobertura, representatividad e infraestructura, CANACINTRA es la cámara más importante de toda latinoamérica."
-		image="electronicos.png"
+		title="Electrónicos"
+		content="El sector de electrónicos es esencial para el desarrollo tecnológico y la competitividad de la economía mexicana. CANACINTRA trabaja para promover el crecimiento y desarrollo sostenible de esta industria, fomentando la innovación, la inversión en investigación y desarrollo, la adopción de tecnologías avanzadas y la mejora de la capacitación y formación de recursos humanos especializados en electrónica."
+		image="./electronicos.png"
 		/>
 		<Brand/>
-		<Testimonals/>
 		<Contact/>
 		<Dropdown client:load/>
 		<Footer/>

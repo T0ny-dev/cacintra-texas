@@ -2,13 +2,16 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Hero from '../components/Hero.jsx';
-import Form from '../components/Form.astro';
+import Form from '../components/Form.jsx';
 import Footer from '../components/footer.astro';
+import MobileNavbar from "../components/MobileNavbar.jsx"
+
 ---
 
 <Layout title="CANACINTRA - Servicios">
-  <Navbar/>
-  <Hero image={"logowhite.svg"} title={"CONTACTO"} background={"contacto.jpg"}/>
-  <Form/>
+  <Navbar client:load/>
+  <MobileNavbar client:load />
+  <Hero image={"./logowhite.svg"} title={"CONTACTO"} background={"./contacto.jpg"}/>
+  <Form client:load />
   <Footer/>
 </Layout>

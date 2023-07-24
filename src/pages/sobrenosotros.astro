@@ -3,18 +3,36 @@ import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Hero from '../components/Hero.jsx';
 import ImageSection from '../components/ImageSection.astro';
+import ImageLeft from '../components/ImageLeft.astro'
 import Footer from '../components/footer.astro';
 import Video from '../components/Video.astro';
+import MobileNavbar from "../components/MobileNavbar.jsx"
 ---
 
 <Layout title="CANACINTRA - Servicios">
-  <Navbar/>
-  <Hero image={"logowhite.svg"} title={"SOBRE NOSOTROS"} background={"sobrensotros.jpg"} position ={"top"}/>
+  <Navbar client:load/>
+  <MobileNavbar client:load />
+  <Hero image={"./logowhite.svg"} title={"SOBRE NOSOTROS"} background={"./sobrensotros.jpg"} position ={"top"}/>
   <Video/>
   <ImageSection
-  title="Sectores Clave" 
-	content="La Cámara Nacional de la Industria de Transformación CANACINTRA, es el organismo que representa al sector industrial de México. Tiene como objetivo fomentar la competitividad y la productividad de las empresas, apoyándolas para que se mantengan en constante actualización y se conviertan en agentes innovadores socialmente responsables. Por su cobertura, representatividad e infraestructura, CANACINTRA es la cámara más importante de toda latinoamérica."
-	image="petro.png"
+  title="Objetivo" 
+	content="La Cámara Nacional de la Industria de Transformación tiene como función esencial representar los intereses de sus afiliados; Promover acciones gubernamentales y de otros organismos empresariales que contribuyan a mejorar la actividad industrial; Así como defenderlos de medidas y políticas gubernamentales a nivel federal, estatal y municipal que afecten la actividad industrial del pais."
+	image="./objetive.jpg"
+  />
+  <ImageLeft
+  title="Misión" 
+	content="Representar firmemente y en el marco de los valores éticos los intereses del sector industrial, influyendo eficazmente en la competitividad e integración de empresas, sectores y regiones, satisfaciendo a los afiliados a través de servicios de calidad."
+	image="./mision.jpg"
+  />
+  <ImageSection
+  title="Visión" 
+	content="La Cámara Nacional de la Industria de Transformación tiene como función esencial representar los intereses de sus afiliados; Promover acciones gubernamentales y de otros organismos empresariales que contribuyan a mejorar la actividad industrial; Así como defenderlos de medidas y políticas gubernamentales a nivel federal, estatal y municipal que afecten la actividad industrial del pais."
+	image="./vision.jpg"
+  />
+  <ImageLeft
+  title="Logros y Reconocimientos " 
+	content="El pasado 30 de marzo se Logró Firmar el Convenio Integral de Colaboración , Prácticas profesionales y Servicios Educativos, con la Universidad Tamaulipeca y CANACINTRA Delegación Río Bravo, obteniendo un sin número de beneficios impulsando la educación y capacitación de los jóvenes. "
+	image="./logros.jpg"
   />
   <Footer/>
 </Layout>

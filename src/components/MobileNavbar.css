@@ -1,0 +1,25 @@
+.MobileNavbar {
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  align-items: center;
+  padding: 0px 5vw;
+}
+
+
+@media (max-width: 1135px) {
+  .menu_mobile_links {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu_mobile_links a {
+    padding: 2vh 5vw;
+    text-decoration: none;
+    color: black;
+    background-color: #f9f9f9;
+    border-bottom: #e1e1e1  solid 1px ;
+  }
+
+
+}

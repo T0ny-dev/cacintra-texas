@@ -1,18 +1,11 @@
 
 <div class="Brand">
-  <h2>Aliados Estrategicos</h2>
+  <h2>Aliados Estratégicos</h2>
   
   <div class="Brand__logos">
-    <img src="logo.svg" alt="logo">
-    <img src="logo.svg" alt="logo">
-    <img src="logo.svg" alt="logo">
-    <img src="logo.svg" alt="logo">
-  </div>
-  <div class="Brand__logos">
-    <img src="logo.svg" alt="logo">
-    <img src="logo.svg" alt="logo">
-    <img src="logo.svg" alt="logo">
-    <img src="logo.svg" alt="logo">
+    <img src="./logo.svg" alt="logo">
+    <img src="https://st.mextudia.com/wp-content/uploads/2022/08/universidad-tamaulipeca-e1659549020392.png" alt="logo">
+    <img src="./logoutbc (1).svg" alt="logo">
   </div>
 </div>
 
@@ -25,6 +18,10 @@
   justify-content: center;
 }
 
+.Brand img{
+  width: 250px;
+}
+
 .Brand h2 {
   padding: 3vh 6.8vw;
 }
@@ -34,6 +31,13 @@
   padding: 5vh 6.8vw;
   width: 100%;
   justify-content: space-evenly;
+}
+
+@media (max-width: 750px) {
+  .Brand__logos {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 </style>

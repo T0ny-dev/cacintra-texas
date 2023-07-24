@@ -29,3 +29,13 @@
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 1135px) {
+
+  .szh-accordion__item-btn {
+    width: 90vw;
+  }
+  .szh-accordion__item-btn::after {
+    left: 85vw;
+  }
+}

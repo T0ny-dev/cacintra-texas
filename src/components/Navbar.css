@@ -63,14 +63,66 @@
   background-color: #b3182a;
 }
 
-.Navbar__icon {
-  padding: 10px 10px;
+
+.button_action {
+  background-color: transparent;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 12px;
+  
+}
+
+.button_action:hover {
+  background-color: rgb(226, 226, 226);
+}
+
+.menu-flotante {
+  background-color: white;
+  height: 10vh;
+  width: 15vw;
+  position: absolute;
+  right: 6.5vw;
+  top: 6vh;
+  border-radius: 10px;
+  box-shadow: 1px 2px 21px -2px rgba(0,0,0,0.15);
+  -webkit-box-shadow: 1px 2px 21px -2px rgba(0,0,0,0.15);
+  -moz-box-shadow: 1px 2px 21px -2px rgba(0,0,0,0.15);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.Navbar__icon:hover {
-  background-color: rgb(226, 226, 226);
-  border-radius: 50px;
+.menu__visible{
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+}
+
+.menu_visible_button {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.menu_visible_button:hover {
+  color:#b3182a;
+}
+
+#plataformaIcon {
+  width: 20px;
+  margin-right: 10px;
+}
+
+
+@media (max-width: 1135px) {
+  .Navbar {
+    display: none;;
+  }
 }

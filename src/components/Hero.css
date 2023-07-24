@@ -1,8 +1,7 @@
 .Hero {
-  background-image: url("");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0vw 60px;
+  background-position: 0vw auto;
   height: 55vh;
   display: flex;
   flex-direction: column;
@@ -33,5 +32,11 @@
   50% {scale: 1.1;}
   100% {scale: 1;
   rotate:360deg;
+  }
+}
+
+@media (max-width: 1135px) {
+  .Hero h1 {
+    text-align:center;
   }
 }
