@@ -1,5 +1,5 @@
 .Map {
-  background-image: url(backgroundmap.svg);
+  background-image: url(../../public/backgroundmap.svg);
   background-size: cover;
   height:55vh;
   display: flex;
