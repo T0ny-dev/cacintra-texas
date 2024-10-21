@@ -7,7 +7,7 @@ function Hero(props) {
     }}>
       <img src={props.image} alt="" />
       <h1>{props.title}</h1>
-      <p>CANACINTRA RÍO BRAVO</p>
+      <p>CANACINTRA TEXAS</p>
     </div>
   )
 }

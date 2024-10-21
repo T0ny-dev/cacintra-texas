@@ -9,7 +9,7 @@ function MobileNavbar () {
     <>
     <div className="MobileNavbar">
       <a href="/">
-          <img src="./logo.svg" alt="logo" />
+          <img src="./logo-s.svg" alt="logo" />
       </a>
       <button onClick={() => setMenuVisible(!menuVisible)} className="button_action"><img src='./iconpoints.svg'/></button>
     </div>

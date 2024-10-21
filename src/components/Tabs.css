@@ -59,3 +59,7 @@
     gap: 5vh;
   }
 }
+
+body > astro-island:nth-child(6) > div > div.content > div:nth-child(2) > div > div > div:nth-child(2) > img {
+  height: 270px;
+}

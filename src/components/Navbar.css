@@ -10,11 +10,18 @@
   box-shadow: 1px 2px 21px -2px rgba(0,0,0,0.15);
 -webkit-box-shadow: 1px 2px 21px -2px rgba(0,0,0,0.15);
 -moz-box-shadow: 1px 2px 21px -2px rgba(0,0,0,0.15);
+z-index: 100;
 }
 
 .Navbar__Links {
   display: flex;
   align-items: center;
+}
+
+
+.logo {
+ width: 222px;
+ height: 41px;
 }
 
 .Navbar__Links a {
@@ -49,7 +56,7 @@
 }
 
 .button_primary{
-  background-color: #D0142B;
+  background-color: #191E29;
   color: white;
   border: none;
   height: 35px;

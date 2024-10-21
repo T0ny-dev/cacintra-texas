@@ -1,7 +1,7 @@
 .Hero {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0vw auto;
+  background-position: center;
   height: 55vh;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,9 @@
   margin-top: 2%;
   color: white;
   font-size: 36px;
+  text-align: center;
   font-weight: 500;
+  width: 60vw;
 }
 
 .Hero p {
