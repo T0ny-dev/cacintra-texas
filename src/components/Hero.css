@@ -37,8 +37,10 @@
   }
 }
 
-@media (max-width: 1135px) {
+
+@media (min-width: 450px) {
   .Hero h1 {
-    text-align:center;
+    font-size: 24px;
+    text-align: center;
   }
 }
