@@ -23,7 +23,7 @@ function Navbar() {
             <ul className="menu-investigaciones">
               <li>
                 <a href="https://cicade.network/wp-content/uploads/2024/10/perfilriobravo.pdf" className="investigacion_link" target='_blank'>
-                  Perfil Riobravo
+                Perfil Económico de Río bravo
                 </a>
               </li>
             </ul>

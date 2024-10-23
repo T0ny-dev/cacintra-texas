@@ -155,9 +155,7 @@ z-index: 100;
   color: black; /* Cambia el color del texto según sea necesario */
 }
 
-.investigacion_link:hover {
-  background-color: #f1f1f1; /* Cambia el color de fondo al pasar el mouse */
-}
+
 
 .button_investigaciones {
   background-color: transparent;
@@ -181,6 +179,7 @@ body > astro-island:nth-child(3) > div > div.Navbar__Links > div > ul > li > a {
 
 .menu-investigaciones li {
   padding: 10px;
+  border-radius: 10px;
   position: absolute;
   left: 20px;
   width: 150px;
