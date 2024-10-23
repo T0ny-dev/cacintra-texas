@@ -11,7 +11,7 @@ function Tabs() {
 			tabTitle: 'servicios',
 			title: 'CANACINTRA EN TEXAS',
 			content: './juntas.png',
-			heading: 'Juntas y Mesas de Negocios',
+			heading: 'Mesas de Negocios',
 			paragraph:'Importante al permitir que las empresas locales colaboren y compartan información para resolver problemas comunes y mejorar sus prácticas comerciales.',
 			content2:'./e-learning.png',
 			heading2: 'Educación',
