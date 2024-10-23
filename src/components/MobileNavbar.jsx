@@ -21,6 +21,7 @@ function MobileNavbar () {
             <a href="/servicios">Servicios</a>
             <a href="/contacto">Contacto</a>
             <a href="/https://cicade.network/">CICADE NETWORK</a>
+            <a href="https://cicade.network/wp-content/uploads/2024/10/perfilriobravo.pdf" target="_blank">Perfil Económico de Río bravo</a>
             <a href='https://cicade.network/wp-login.php' target={'_blank'}>
               <button className='menu_visible_button'><img src='./plaforma.png' id='plataformaIcon'/>Plataforma Virtual</button>
             </a>

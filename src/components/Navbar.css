@@ -133,3 +133,58 @@ z-index: 100;
     display: none;;
   }
 }
+
+
+
+.menu-investigaciones {
+  position: absolute; /* O relative, dependiendo de tu diseño */
+  background-color: white;
+  border: 1px solid #ccc;
+  z-index: 1000;
+  list-style-type: none; /* Elimina viñetas */
+  padding: 0;
+  margin: 0;
+}
+
+.menu-investigaciones li {
+  padding: 10px;
+}
+
+.investigacion_link {
+  text-decoration: none;
+  color: black; /* Cambia el color del texto según sea necesario */
+}
+
+.investigacion_link:hover {
+  background-color: #f1f1f1; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.button_investigaciones {
+  background-color: transparent;
+  border: none;
+  margin-left: 32px;
+  text-decoration: none;
+  color: #151F3D;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+.button_investigaciones :hover {
+  color:#D0142B;
+}
+
+body > astro-island:nth-child(3) > div > div.Navbar__Links > div > ul > li > a {
+  margin-left: 0;
+}
+
+.menu-investigaciones li {
+  padding: 10px;
+  position: absolute;
+  left: 20px;
+  width: 150px;
+  background-color: #fffF;
+  display: flex;
+  justify-content: center;
+}
